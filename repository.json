@@ -1,0 +1,34 @@
+{
+  "metadata_version": 1,
+  "name": "3d-design-projects",
+  "owner": "DynamicDevices",
+  "display_name": "Dynamic Devices — 3D design projects",
+  "url": "https://github.com/DynamicDevices/3d-design-projects",
+  "visibility": "public",
+  "default_branch": "main",
+  "description": "Public 3D design projects for non-commercial sharing and remixing.",
+  "license": {
+    "spdx_id": "CC-BY-NC-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "text": "LICENSE",
+    "scope": "DD original contributions unless marked otherwise",
+    "commercial_use_granted": false,
+    "open_source": false,
+    "third_party_terms": "THIRD-PARTY-NOTICES.md",
+    "scope_details": "LICENSE-SCOPE.md"
+  },
+  "default_printer": {
+    "manufacturer": "Bambu Lab",
+    "model": "A1 Mini",
+    "nozzle_diameter_mm": 0.4
+  },
+  "projects": ["projects/screwdriver-bit-holder/project.json"],
+  "publication": {
+    "stage": "metadata-and-documentation-only",
+    "model_files_published": false,
+    "automated_ci_configured": false,
+    "automated_review_configured": false
+  },
+  "topics": ["3d-design", "3d-printing", "cad", "openscad", "skadis", "petg", "non-commercial"],
+  "assisted_by": "Briar"
+}

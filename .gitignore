@@ -1,0 +1,14 @@
+# Private/intermediate engineering work does not belong in public commits.
+work/
+scratch/
+*.log
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.sig
+*-proposals/
+.DS_Store
+Thumbs.db

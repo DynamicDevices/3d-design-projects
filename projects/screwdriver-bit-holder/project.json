@@ -1,0 +1,37 @@
+{
+  "metadata_version": 1,
+  "id": "screwdriver-bit-holder",
+  "title": "SKÅDIS screwdriver-bit tray",
+  "units": "mm",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_scope": "DD contributions only; third-party terms preserved",
+  "status": "design-development-not-print-ready",
+  "approved_reference": "iteration-3",
+  "current_comparison_candidate": "iteration-4",
+  "model_files_published": false,
+  "publication_hold": "Primary-source licence verification for imported T-Clip geometry",
+  "printer": {"manufacturer": "Bambu Lab", "model": "A1 Mini", "nozzle_diameter_mm": 0.4},
+  "material": {"type": "PETG", "colour": "black", "grade": "standard", "supplier": null},
+  "capacity": {"sockets": 40, "rows": 5, "columns": 8},
+  "socket": {"profile": "hexagonal", "across_flats_mm": 6.7, "insertion_depth_mm": 10, "physical_fit_validated": false},
+  "labels": {"row_inserts": 5, "front_inserts": 1, "front_insert_side_entry_clearance_mm": 156},
+  "reference": {"bounds_mm": [170, 90, 72], "cad_solid_volume_mm3": 202330.60},
+  "candidate": {"bounds_mm": [170, 90, 68], "cad_solid_volume_mm3": 119469.36, "strength_accepted": false},
+  "evidence": {
+    "fea": "Preliminary fully solid isotropic screening; mesh quality inadequate for structural acceptance",
+    "slicing": "Diagnostic exports only; effective machine profile unsuitable for print release",
+    "physical_print_validated": false,
+    "load_rating": null,
+    "screening_payload_g": 565,
+    "payload_basis": "Mixed example group, not measured forty-socket capacity",
+    "flexible_extension_included": false
+  },
+  "third_party_dependencies": [{
+    "title": "SKÅDIS T-Clip System",
+    "creator": "Line Arc Line",
+    "source": "https://www.printables.com/model/256896-skadis-t-clip-system",
+    "license_verified": false,
+    "redistributed": false
+  }],
+  "assisted_by": "Briar"
+}
